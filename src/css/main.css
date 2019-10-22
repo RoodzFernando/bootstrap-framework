@@ -16,9 +16,9 @@ header {
     display: flex;
     justify-content: space-between;
     background: #f7443b;
-    padding: 0 .8em;
+    padding: .8em;
     padding-top: 1.3em;
-    padding-bottom: 0.5em;
+    padding-bottom: .5em;
 }
 
 .publication-date {
@@ -52,6 +52,8 @@ header {
     border: 0;
     background: transparent;
     font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: .5em;
 }
 
 .suscribe button {
@@ -60,19 +62,36 @@ header {
     background: #fff;
     font-weight: bold;
     padding-left: 5px;
+    font-size: 1.2rem;
+    width: 150px;
 }
 
 
 /* Bottom part */
 
 .bottom-header {
-    border-bottom: 2px solid #000;
+    /* border-bottom: 2px solid black; */
     display: flex;
     padding-top: .9em;
     background: #fff;
+    position: relative;
+    margin-bottom: 3px;
     /* align-items: center; */
     /* height: 100px; */
     /* justify-content: space-evenly; */
+}
+
+.bottom-header:before {
+    /* border: 1px solid #000; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 100px;
+    background-color: #f72210;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
 }
 
 .links ul {
@@ -83,7 +102,7 @@ header {
 
 .links ul li {
     list-style: none;
-    margin-right: 0.8em;
+    margin-right: .8em;
     font-size: 1.2rem;
     font-weight: bold;
     border-right: 1px solid #d9d9d9;
@@ -121,4 +140,132 @@ header {
     height: 20px;
     margin-left: 0.2em;
     background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+}
+
+
+/* Body content */
+
+.body-content {
+    background: #fff;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.insight {
+    padding: 1.5em;
+    padding-top: .8em;
+    padding-bottom: 0;
+}
+
+.title {
+    color: rgba(3, 3, 3, .4);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.picture {
+    position: relative;
+    padding-top: 0;
+}
+
+.category {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #f6f4f3;
+}
+
+.category a {
+    display: block;
+    text-decoration: none;
+    color: #f72210;
+    padding: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.link-title {
+    color: #000;
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.link-title:hover {
+    color: #000;
+    text-decoration-color: #f72210;
+}
+
+.summary {
+    /* border: 1px solid #000; */
+    margin-bottom: 0;
+}
+
+
+/* column 2 */
+
+
+/* column 3 */
+
+.opinion-links {
+    margin-right: 2.2em;
+    /* background: blue; */
+    border-bottom: 1px solid #ddd;
+    margin-top: 0.5em;
+}
+
+.last {
+    /* border: 1px solid #000; */
+    border: 0;
+    margin-bottom: 30px;
+}
+
+.editors {
+    display: flex;
+}
+
+.profile {
+    margin-right: 0.9em;
+}
+
+.editors-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.editors-links a:hover {
+    color: #f72210;
+}
+
+.author {
+    color: #555;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+/* latest news */
+
+.news-section {
+    margin-right: 2.2em;
+}
+
+.latest-news {
+    display: flex;
+    padding-bottom: .6em;
+    border-bottom: 1px solid #ddd;
+    /* border: 1px solid #000; */
+    margin-top: 15px;
+}
+
+.thumbnail img {
+    width: 150px;
+    height: auto;
+    margin-right: .8em;
+}
+
+.last-news {
+    border: 0;
 }
