@@ -269,3 +269,61 @@ header {
 .last-news {
     border: 0;
 }
+
+
+/* newsletter */
+
+.jumbotron {
+    border: 1px solid #e5e5e5;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 65px;
+    border-radius: 0;
+    background: #f4f5f6;
+    padding: 0;
+    padding: 1.1em;
+}
+
+.icon {
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+    margin-right: 10px;
+}
+
+.sign {
+    /* border: 1px solid #000; */
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: .9;
+}
+
+.news-take {
+    padding: 15px 0;
+}
+
+.news-take a {
+    display: inline-block;
+    /* border: 1px solid #000; */
+    background: #666;
+    width: 80px;
+    padding: 5px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.news-take a:hover {
+    background: #999999;
+}
+
+.news-take a img {
+    width: 6px;
+}
+
+.preference a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
