@@ -546,3 +546,132 @@ header {
     background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
     color: #e9212e;
 }
+/* more news section */
+.top-news{
+    margin-top: 50px;  
+    padding-top: 15px;
+    margin-left: 0;
+    margin-right: 0; 
+    border-top: 1px solid #ddd;
+}
+.top-news [class *="col-lg"] div{
+    /* border: 1px solid #000; */
+    font-weight: bold;
+    font-size: 1.4rem;
+    color:#f72210;
+}
+
+.show-info + a{
+    /* border: 1px solid #000; */
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.news-section{
+    display: flex;
+}
+.news-two{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.news-section a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.news-section a:hover{
+    text-decoration: underline;
+    text-decoration-color: #f72210;
+}
+/* newsletter */
+.letter{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #000; */
+    /* margin-top: 25px; */
+}
+.ico-letter{
+    width: 180px;
+    height: 260px;
+    background: url("../images/newsletter-promo.png");
+    background-position: center;
+    background-size: cover;
+}
+.mag-letter{
+    background: #f4f5f6;
+    margin-left: 1px;
+    margin-right: 15px;
+}
+.mag-letter img{
+    /* border: 5px solid red; */
+    width: 200px;
+    height: auto;
+}
+.second-img{
+    /* border: 5px solid red; */
+    position: absolute;
+    top: 40px;
+    left: 115px;
+}
+.mag-text{
+    margin-left: 125px;
+}
+.mag-text>div:nth-child(1){
+    /* border: 1px solid #000; */
+    font-weight: bold;
+    font-size: 25px;
+}
+.mag-text>div:nth-child(2){
+    /* border: 1px solid #000; */
+    margin: 10px 0;
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+.news-line{
+    box-sizing: border-box;
+    border-top: 3px solid #f4f5f6;
+    margin: 0;
+    /* margin-bottom: 15px; */
+}
+.news-title{
+    /* border: 1px solid #000; */
+    padding-left: 0;
+    font-size: 1.1rem;
+    color:#f72210;
+    font-weight: bold;
+    /* padding-top: 25px; */
+}
+.letter-btn{
+    background: #f72210;
+    border: 0;
+    color:#fff;
+    font-size: 1.1rem;
+    padding: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.letter-btn:hover{
+    background: #de3c34;
+}
+.sign-border{
+    border: 1px solid #ddd;
+    margin-right: 15px;
+}
+.mag-sign{
+    /* border: 1px solid #000; */
+    margin-left: 20px;
+}
+.mag-sign>div:nth-child(1){
+    /* border: 1px solid #000; */
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.mag-sign>div:nth-child(2){
+    /* border: 1px solid #000; */
+    margin-bottom: 10px;
+}
+/* footer */
