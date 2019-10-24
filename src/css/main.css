@@ -201,6 +201,16 @@ header {
     margin-bottom: 0;
 }
 
+/* column 1 */
+.one, .three{
+    /* border: 1px solid #000; */
+    height: 1700px;
+}
+.two{
+    /* border: 1px solid red; */
+    height: 1700px;
+    overflow-y: scroll;
+}
 
 /* column 2 */
 
@@ -399,4 +409,140 @@ header {
     text-decoration: none;
     color: #000;
     font-weight: bold;
+}
+/* in the magazine */
+.mag{
+    /* background: skyblue;
+    border: 1px solid #000; */
+    margin-top: 1.5em;
+}
+/* .mag [class *= "col-"]{
+    border: 1px solid #000;
+} */
+.mag-title{
+    margin: 15px 0;
+    padding-bottom: 6px;
+    display: flex; justify-content: center;
+    border-bottom: 1px solid #ddd;
+}
+.mag-second img{
+    /* margin-top: 5px; */
+    width: 100%;
+    height: 100%;
+}
+.pres-img{
+    /* display: block; */
+    position: relative;
+}
+.pres-img .issue{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.issue a{
+    display: block;
+    padding: 5px;
+    background: #e7e7e7;
+    text-decoration: none;
+    color:#f72210;
+    font-weight: bold;
+}
+.pres-img + div{
+    /* border: 1px solid #000; */
+    width: 290px;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pres-img + div:hover{
+    background: #dbdcdd;
+}
+.mag-label{
+    display: flex;
+}
+.mag-label div{
+    /* border: 1px solid #000; */
+    background: #f72210;
+    color: #fff;
+    font-weight: bold;
+    margin: 5px 5px 0 0;
+    padding: 0 5px;
+    /* width: 60px; */
+    text-align: center;
+    /* padding: 2px; */
+}
+.mag-label a{
+    /* border: 1px solid #000; */
+    color:#f72210;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.mag-label + a{
+    /* border: 1px solid #000; */
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.mag-label + a:hover{
+    text-decoration: underline;
+    text-decoration-color: #f72210;
+}
+/*  */
+/* .more [class *= "col-"]{
+    background: chartreuse;
+} */
+.focus{
+    position: relative;
+}
+.in-focus{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.focus + a{
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.focus + a:hover{
+     text-decoration: underline;
+    text-decoration-color: #f72210;
+}
+.editor-picture .col-lg-3 .insight{
+    /* border: 1px solid #000; */
+    padding: 0;
+}
+/* featured slideshow */
+.icon-slideshow{
+    display: block;
+    width: 29px;
+    height: 28px;
+    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+}
+.img-slide{
+    position: relative;
+}
+.count-link{
+     width: 70px;
+    height: 52px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 58px;
+    text-indent: 5px;
+    text-align: center;
+    background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+    color: #e9212e;
 }
