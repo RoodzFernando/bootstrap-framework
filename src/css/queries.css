@@ -1,0 +1,16 @@
+@media (min-width: 500px) and (max-width: 991px) {
+    .top-header,
+    .bottom-header,
+    .search {
+        display: none;
+    }
+
+    .top-header-small {
+        display: block;
+        display: flex;
+    }
+
+    .body-content {
+        margin-top: 55px;
+    }
+}
