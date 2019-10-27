@@ -22,7 +22,7 @@ module.exports = {
         "block-opening-brace-space-before": "always",
         "color-hex-case": "lower",
         "color-hex-length": "short",
-        "comment-empty-line-before": ["always", {
+        "comment-empty-line-before": ["never", {
             except: ["first-nested"],
             ignore: ["stylelint-commands"],
         }],
@@ -78,7 +78,7 @@ module.exports = {
         "media-query-list-comma-space-after": "always-single-line",
         "media-query-list-comma-space-before": "never",
         "no-eol-whitespace": true,
-        "no-missing-end-of-source-newline": false,
+        "no-missing-end-of-source-newline": true,
         "number-leading-zero": "always",
         "number-no-trailing-zeros": true,
         "property-case": "lower",
@@ -106,4 +106,4 @@ module.exports = {
         "value-list-comma-space-before": "never",
         "value-list-max-empty-lines": 0,
     },
-}
+};
