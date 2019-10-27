@@ -102,6 +102,7 @@ header {
     background: #fff;
     position: relative;
     margin-bottom: 3px;
+    width: 100%;
 }
 
 .bottom-header::before {
@@ -231,7 +232,7 @@ header {
 .links ul li a {
     text-decoration: none;
     color: #000;
-    font-size: 1.3rem;
+    font-size: 16px;
 }
 
 .information a:hover {
