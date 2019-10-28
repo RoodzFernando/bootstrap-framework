@@ -259,6 +259,16 @@ header {
     border: 0;
 }
 
+.more img {
+    width: inherit;
+    height: 315px;
+}
+
+.focus img {
+    width: 100%;
+    height: 350px;
+}
+
 .more-news a:hover {
     color: #f72210;
 }
@@ -386,8 +396,8 @@ header {
 }
 
 .mag-second img {
-    width: 100%;
-    height: 100%;
+    width: inherit;
+    height: 315px;
 }
 
 .img-slide img {
@@ -397,6 +407,11 @@ header {
 .mag-letter img {
     width: 200px;
     height: auto;
+}
+
+.pres-img img {
+    width: 100%;
+    margin-top: 48px;
 }
 
 .news-take a img {
@@ -465,6 +480,7 @@ header {
 .news-section {
     margin-right: 2.2em;
     display: flex;
+    flex-direction: column;
 }
 
 .latest-news {
@@ -487,6 +503,10 @@ header {
     background: #f4f5f6;
     padding: 0;
     padding: 1.1em;
+}
+
+.ico-newsletter {
+    display: flex;
 }
 
 .icon {
@@ -517,6 +537,10 @@ header {
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #ddd;
+}
+
+.slide-second-row {
+    margin-top: 50px;
 }
 
 .pres-img {
@@ -635,18 +659,34 @@ p + div {
     box-sizing: border-box;
     background: #f4f5f6;
     margin-left: 1px;
-    margin-right: 15px;
+    margin-right: 0;
     padding: 15px;
+}
+
+.mag-letter .col-lg-5 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-overlap {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.first-img {
+    position: relative;
 }
 
 .second-img {
     position: absolute;
     top: 22px;
     left: 100px;
+    height: 250px;
 }
 
 .mag-text {
-    padding-left: 75px;
+    padding-left: 155px;
+    padding-right: 0;
 }
 
 .mag-text > div:nth-child(1) {
@@ -693,6 +733,8 @@ p + div {
 
 .mag-sign {
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .mag-sign > div:nth-child(1) {
@@ -729,6 +771,12 @@ footer {
 .top-footer p {
     margin-left: 15px;
     margin-bottom: 0;
+}
+
+.footer-social {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 p + div span {
