@@ -2,7 +2,7 @@
 
 ## [Solo Project]
 
-This project requests students to build a replica of the news site [Newsweek.com](https://https://www.newsweek.com/) using the Bootstrap framework.
+This is a responsive replica of the news site [Newsweek.com](https://https://www.newsweek.com/) built using the Bootstrap framework.
 
 You can find the original project specification [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
 
